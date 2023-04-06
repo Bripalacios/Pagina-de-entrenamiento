@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  opacity: 85%;
+}
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin-right: 1.5rem;
+}
+
+.nav-menu a {
+  transition: 0.2s all ease-in;
+}
+
+.nav-menu a:hover {
+  color: aquamarine;
+}
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../luz.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 75%;
+}
+
+.texto-uno h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 5.5rem;
+}
+.texto-uno p {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+
+.btn-uno {
+  background-color: transparent;
+  border: thin solid white;
+  width: 110px;
+  height: 45px;
+  border-radius: 5%;
+}
+.btn-uno a {
+  transition: 0.2s all ease-in;
+}
+
+.btn-uno a:hover {
+  color: aquamarine;
+}
+
+.form {
+  font-size: small;
+  padding-top: 50px;
+  margin-left: 25vh;
+}
+
+.registro {
+  width: 370px;
+  height: 35px;
+}
+
+.boton {
+  width: 270px;
+  height: 35px;
+  background-color: olivedrab;
+}
+
+img.redimension {
+  width: 100%;
+  height: 140px;
+}
+
+.img-redimension {
+  width: 100%;
+  height: 140px;
+}
+.seccion-dos {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 25px;
+  color: black !important;
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  color: black !important;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card h3 {
+  color: black;
+  padding: 15px;
+}
+
+.description {
+  color: black;
+  text-align: justify;
+  width: 100%;
+  padding: 15px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  padding: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #676851;
+}
+
+.container-dos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  color: black !important;
+}
+
+.car-dos {
+  overflow: hidden;
+}
+
+.underline {
+  color: var(white);
+
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+.img-redimension-uno {
+  width: 25px;
+  height: 25px;
+}
+
+.logo {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
