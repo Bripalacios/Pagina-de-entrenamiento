@@ -28,10 +28,17 @@
 
 .nav-menu a {
   transition: 0.2s all ease-in;
+  position: relative;
 }
 
-.nav-menu a:hover {
-  color: aquamarine;
+.nav-menu a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: aquamarine;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
 }
 
 .hero-image {
@@ -63,6 +70,15 @@
   justify-content: center;
   margin-top: 40px;
   gap: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .btn-uno {
@@ -74,6 +90,8 @@
 }
 .btn-uno a {
   transition: 0.2s all ease-in;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
 }
 
 .btn-uno a:hover {
@@ -194,6 +212,7 @@ img.redimension {
   bottom: 0;
   left: 0;
   background-color: white;
+  cursor: pointer;
 }
 .img-redimension-uno {
   width: 25px;
@@ -205,4 +224,10 @@ img.redimension {
   display: flex;
   justify-content: center;
   gap: 9px;
+}
+
+.img-redimension-uno:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
+  transition: 0.2s all ease-in;
 }
