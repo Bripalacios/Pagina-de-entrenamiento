@@ -231,3 +231,30 @@ img.redimension {
   transform: translateY(-5%);
   transition: 0.2s all ease-in;
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    background-color: pink;
+  }
+  .hero-image {
+    background-color: pink;
+  }
+  .texto-uno h1 {
+    background-color: pink;
+  }
+  .texto-uno p {
+    background-color: pink;
+  }
+  .btn {
+    background-color: pink;
+  }
+  .form {
+    background-color: pink;
+  }
+  .registro {
+    background-color: pink;
+  }
+  .boton {
+    background-color: pink;
+  }
+}
