@@ -22,7 +22,7 @@
 .nav-menu ul {
   display: flex;
   align-items: center;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .nav-menu li {
@@ -60,14 +60,14 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   padding-top: 3rem;
 }
 .texto-uno p {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn {
@@ -84,7 +84,7 @@
 .btn-uno {
   background-color: transparent;
   border: thin solid white;
-  width: 100px;
+  width: 130px;
   height: 45px;
   border-radius: 5%;
 }
@@ -107,12 +107,12 @@
 }
 
 .registro {
-  width: 70%;
-  height: 25px;
+  width: 30%;
+  height: 33px;
 }
 
 .boton {
-  width: 70%;
+  width: 25%;
   height: 35px;
   background-color: olivedrab;
   margin-top: 10px;
@@ -140,7 +140,6 @@ img.redimension {
 }
 
 .container {
-  flex-direction: column;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -150,7 +149,7 @@ img.redimension {
 
 .card {
   width: 80%;
-  margin: 10px auto;
+  margin: 25px 20px;
   border-radius: 1px;
   overflow: hidden;
   background-color: white;
@@ -193,7 +192,6 @@ img.redimension {
 }
 
 .container-dos {
-  flex-direction: column;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -217,7 +215,7 @@ img.redimension {
 .underline::after {
   content: "";
   position: absolute;
-  width: 20%;
+  width: 100%;
   height: 0.5px;
   bottom: 0;
   left: 0;
@@ -249,20 +247,45 @@ img.redimension {
 @media screen and (max-width: 600px) {
   .header {
   }
+  .nav-menu ul {
+    font-size: 11px;
+  }
   .hero-image {
   }
   .texto-uno h1 {
+    font-size: 25px;
+    padding-top: 3rem;
   }
   .texto-uno p {
+    padding: 1rem;
+    font-size: 12px;
   }
-  .btn {
+  .btn-uno {
+    width: 100px;
+    height: 45px;
   }
   .form {
   }
   .registro {
+    width: 70%;
+    height: 25px;
   }
+
   .boton {
+    width: 70%;
+    height: 35px;
   }
+  .container {
+    flex-direction: column;
+  }
+  .container-dos {
+    flex-direction: column;
+  }
+
   .card {
+    margin: 10px auto;
+  }
+  .underline::after {
+    width: 27%;
   }
 }
